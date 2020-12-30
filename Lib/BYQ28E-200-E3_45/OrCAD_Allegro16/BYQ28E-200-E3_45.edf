@@ -1,0 +1,107 @@
+
+(EDIF
+  (rename &BYQ28E_200_E3_45 "BYQ28E_200_E3_45")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 12 23 15 44 29)
+      (dataOrigin "398421/343280/2.47/3/4/Diode")
+      (program "SamacSys ECAD Model BYQ28E_200_E3_45"
+        (version "1.1"))))
+  (library
+  (rename &BYQ28E_200_E3_45 "BYQ28E_200_E3_45")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BYQ28E_200_E3_45 "BYQ28E_200_E3_45")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename PACKAGENAME "PackageName") (string "BYQ28E_200_E3_45"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "TO255P470X1054X1989-3P"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Vishay"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BYQ28E-200-E3/45"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "625-BYQ28E-200-E3"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.com/Search/Refine.aspx?Keyword=625-BYQ28E-200-E3"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "BYQ28E-200-E3/45"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/byq28e-200-e345/vishay"))
+          (property (rename &Description "Description") (string "Vishay BYQ28E-200-E3/45, Dual Diode, Common Cathode, 200V 10A, 25ns, 3-Pin TO-220AB"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.vishay.com/docs/88549/byq28e.pdf"))
+          (property (rename &Height "Height") (string "4.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BYQ28E_200_E3_45"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &A_1 "A_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &COMMON_K "COMMON_K")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &A_2 "A_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &A_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &COMMON_K (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &A_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 700 0)
+                  (pt 700 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 30))))
+          )
+        )
+      )
+    )
+  )
+)

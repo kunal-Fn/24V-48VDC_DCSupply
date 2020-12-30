@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM358N_NOPB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-30-06:35:42)
+    (mountForm default
+        (footprintRef "DIP794W53P254L959H508Q8N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BYQ28E-200-E3_45"
+   (description "Vishay BYQ28E-200-E3/45, Dual Diode, Common Cathode, 200V 10A, 25ns, 3-Pin TO-220AB")
+   (family "DIO")
+   (package "TO255P470X1054X1989-3P")
+   (attribute "Datasheet Link" "http://www.vishay.com/docs/88549/byq28e.pdf")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "BYQ28E-200-E3/45")
+   (attribute "Mouser Part Number" "625-BYQ28E-200-E3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=625-BYQ28E-200-E3")
+   (attribute "Arrow Part Number" "BYQ28E-200-E3/45")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/byq28e-200-e345/vishay")
+   (gate
+    (symbol "BYQ28E-200-E3_45")
+    (pin "A_1" 1 PS)
+    (pin "COMMON_K" 2 PS)
+    (pin "A_2" 3 PS)
+   )
+  )
+  (symbol "BYQ28E-200-E3_45"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO255P470X1054X1989-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.97 2.86)
+      (pt 8.07 2.86)
+      (pt 8.07 -2.34)
+      (pt -2.97 -2.34)
+      (pt -2.97 2.86))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.72 2.61)
+      (pt 7.82 2.61)
+      (pt 7.82 -2.09)
+      (pt -2.72 -2.09)
+      (pt -2.72 2.61))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.72 1.335)
+      (pt -1.445 2.61))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.82 -2.09)
+      (pt 7.82 2.61)
+      (pt -2.72 2.61)
+      (pt -2.72 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.55 0) (padstack 0))
+   (leg 3 (pt 5.1 0) (padstack 0))
+   (padstack 0
+    (hole 1.26)
+    (plated true)
+    (pad (layer TCOP) (round 1.89))
+    (pad (layer INNER) (round 1.89))
+    (pad (layer BCOP) (round 1.89))
+   )
+   (padstack 1
+    (hole 1.26)
+    (plated true)
+    (pad (layer TCOP) (square 1.89))
+    (pad (layer INNER) (round 1.89))
+    (pad (layer BCOP) (square 1.89))
+   )
+   (model "BYQ28E-200-E3_45.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

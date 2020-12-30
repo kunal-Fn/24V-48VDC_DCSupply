@@ -1,0 +1,18 @@
+.282834-3 :1 ;Connector pcb 3 way 2.54mm Termi-Block
+"2828343"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 282834-3
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (282834-3)
+~!Mouser Part Number (571-2828343)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-3?qs=A%252Bip%252BNCYi6M69kAjqV38yA%3D%3D)
+~!Arrow Part Number (282834-3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/282834-3/te-connectivity)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-3)
+~!Height (10mm)
+~!3D_Model (282834-3)
+"282834-3"
+1.1!U 2.1!U 3.1!U 

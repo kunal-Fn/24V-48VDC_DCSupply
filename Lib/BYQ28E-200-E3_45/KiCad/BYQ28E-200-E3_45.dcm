@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BYQ28E-200-E3_45
+D Vishay BYQ28E-200-E3/45, Dual Diode, Common Cathode, 200V 10A, 25ns, 3-Pin TO-220AB
+K
+F http://www.vishay.com/docs/88549/byq28e.pdf
+$ENDCMP
+#
+#End Doc Library

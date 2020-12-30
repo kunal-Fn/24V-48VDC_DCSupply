@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SM_FB_48V9V_OUT)(type Legacy)(uri C:/Users/kunal/Projects/DC_DC_24V_48V/Lib/SM_FB_48V9V_OUT.lib)(options "")(descr ""))
+  (lib (name supplyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/supplyboard-rescue.lib)(options "")(descr ""))
+)

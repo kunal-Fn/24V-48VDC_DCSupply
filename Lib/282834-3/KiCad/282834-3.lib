@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 282834-3
+#/12741913/343280/2.47/3/4/Connector
+DEF 282834-3 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "282834-3" 650 200 50 H V L CNN
+F2 "2828343" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-3" 650 0 50 H I L CNN
+F4 "Connector pcb 3 way 2.54mm Termi-Block" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "282834-3" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-2828343" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-3?qs=A%252Bip%252BNCYi6M69kAjqV38yA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "282834-3" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/282834-3/te-connectivity" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

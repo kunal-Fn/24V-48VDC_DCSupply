@@ -1,0 +1,18 @@
+.LM358N_NOPB :1 ;Texas Instruments LM358N/NOPB, Dual Op Amp, 1MHz, 3  32 V, 8-Pin MDIP
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="OUTPUT A" 2="INVERTING INPUT A" 3="NON-INVERTING INPUT A" 4="GND" 5="NON-INVERTING INPUT B" 6="INVERTING INPUT B" 7="OUTPUT B" 8="V+"
+*MXP 8
+*DFN LM358N_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM358N/NOPB)
+~!Mouser Part Number (926-LM358N/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM358N-NOPB/?qs=QbsRYf82W3GXbWt%2FvwDTcQ%3D%3D)
+~!Arrow Part Number (LM358N/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm358nnopb/texas-instruments)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lm158-n.pdf)
+~!Height (5.08mm)
+~!3D_Model (LM358N_NOPB)
+LM358N_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

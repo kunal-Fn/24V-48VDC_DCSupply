@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=BYQ28E-200-E3/45
+PartCategory=Diode
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=1.1
+Released=2020-05-25 09:20:27
+Downloaded=2020-12-23 15:44:29
+3D=Y
