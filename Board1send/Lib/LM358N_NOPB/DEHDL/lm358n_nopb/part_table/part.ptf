@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM358N_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "VCC_MAX", "VCC_MIN", "VID_MAX", "VID_MIN", "VIN_MAX", "VIN_MIN", "IOUT_MAX", "IOUT_MIN", "ICC", "IGND", "RCA", "RJC", "ICCQ", "TECHNOLOGY";
+{========================================================================================}
+ "Texas Instruments", "LM358N/NOPB" (!) = "", "DIP794W53P254L959H508Q8N", "Dual-In-Line Packages", "926-LM358N/NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM358N-NOPB/?qs=QbsRYf82W3GXbWt%2FvwDTcQ%3D%3D", "LM358N/NOPB", "https://www.arrow.com/en/products/lm358nnopb/texas-instruments", "Texas Instruments LM358N/NOPB, Dual Op Amp, 1MHz, 3  32 V, 8-Pin MDIP", "http://www.ti.com/lit/ds/symlink/lm158-n.pdf", "5.08 mm", "125", "", "830m", "", "OP-AMP THROUGH HOLE", "PDIP-8", "120", "32", "", "32", "", "32", "-0.3", "", "", "2m", "", "", "", "", "BIPOLAR"
+END_PART
+
+END.

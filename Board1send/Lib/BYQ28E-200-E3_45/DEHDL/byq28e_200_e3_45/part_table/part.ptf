@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BYQ28E_200_E3_45'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "BYQ28E-200-E3/45" (!) = "", "TO255P470X1054X1989-3P", "Transistor Outline, Vertical", "625-BYQ28E-200-E3", "https://www.mouser.com/Search/Refine.aspx?Keyword=625-BYQ28E-200-E3", "BYQ28E-200-E3/45", "https://www.arrow.com/en/products/byq28e-200-e345/vishay", "Vishay BYQ28E-200-E3/45, Dual Diode, Common Cathode, 200V 10A, 25ns, 3-Pin TO-220AB", "http://www.vishay.com/docs/88549/byq28e.pdf", "4.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM358N/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=2.1
+Released=2019-03-05 05:33:20
+Downloaded=2020-12-26 03:17:48
+3D=Y

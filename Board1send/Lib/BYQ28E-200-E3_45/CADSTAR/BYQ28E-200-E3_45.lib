@@ -1,0 +1,18 @@
+.BYQ28E-200-E3_45 :1 ;Vishay BYQ28E-200-E3/45, Dual Diode, Common Cathode, 200V 10A, 25ns, 3-Pin TO-220AB
+TO255P470X1054X1989-3P
+*STM D
+*NGS
+*PLB 1="A_1" 2="COMMON K" 3="A_2"
+*MXP 3
+*DFN BYQ28E-200-E3_45
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (BYQ28E-200-E3/45)
+~!Mouser Part Number (625-BYQ28E-200-E3)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=625-BYQ28E-200-E3)
+~!Arrow Part Number (BYQ28E-200-E3/45)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/byq28e-200-e345/vishay)
+~!Link Datasheet (http://www.vishay.com/docs/88549/byq28e.pdf)
+~!Height (4.7mm)
+~!3D_Model (BYQ28E-200-E3_45)
+BYQ28E-200-E3_45
+1.1!U 2.1!U 3.1!U 

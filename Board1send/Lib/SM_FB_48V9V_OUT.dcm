@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM_FB
+D Transformer, split primary, dual primary 
+K transformer coil magnet
+F ~
+$ENDCMP
+#
+#End Doc Library

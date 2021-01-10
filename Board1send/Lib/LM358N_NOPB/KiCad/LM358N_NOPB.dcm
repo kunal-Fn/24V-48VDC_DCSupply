@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM358N_NOPB
+D Texas Instruments LM358N/NOPB, Dual Op Amp, 1MHz, 3  32 V, 8-Pin MDIP
+K
+F http://www.ti.com/lit/ds/symlink/lm158-n.pdf
+$ENDCMP
+#
+#End Doc Library
